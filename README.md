@@ -18,7 +18,15 @@
 * untracked: Archivos que estan en el WD pero GIT no les esta dando seguimiento
 * unmodified: Archivos que GIT ya esta siguiendo y con respecto al WD, no fueron modificados
 * modified: Archivos que se encuentran en el repositorio ( Estan siendo seguidos por GIT) pero difieren con lo que se encuentra actualmente en el WD 
-* staged: Archivos que estan en el area temporal/intermedia 
+* staged: Archivos que estan en el area temporal/intermedia  
+
+
+# Persistimos los cambios agregados al area de confirmacion en un commit
+
+```sh
+git commit -m "mensaje descriptivo de lo que tiene el commit" 
+``` 
+
 
 
 
